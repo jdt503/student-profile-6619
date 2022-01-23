@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  .main {
+    width: 800px;
+    height: 700px;
+    max-height: 100%;
+    max-width: 100%;
+    background: #fff;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 0;
+  }
+}

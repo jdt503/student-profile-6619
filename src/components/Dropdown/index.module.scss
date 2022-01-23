@@ -1,0 +1,46 @@
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  .title {
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: uppercase;
+    line-height: 0.8;
+  }
+  .button {
+    border: none;
+    background: none;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 86px;
+    cursor: pointer;
+    color: #aaa;
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.content {
+  padding: 15px 4px 0 22px;
+  .header {
+    line-height: 1.5;
+  }
+
+  .dropdown {
+    font-size: 15px;
+    padding: 18px 0 10px 0;
+    line-height: 1.4;
+  }
+
+  .footer {
+    padding: 5px 0;
+  }
+}
